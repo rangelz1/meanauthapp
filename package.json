@@ -1,0 +1,33 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "An authentication app using MEAN",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rangelz1/meanauthapp.git"
+  },
+  "keywords": [
+    "authentication"
+  ],
+  "dependencies":{
+    "express":"*",
+    "mongoose":"*",
+    "bcryptjs":"*",
+    "cors":"*",
+    "jsonwebtoken":"*",
+    "body-parser":"*",
+    "passport":"*",
+    "passport-jwt":"*"
+  },
+  "author": "Carlos R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rangelz1/meanauthapp/issues"
+  },
+  "homepage": "https://github.com/rangelz1/meanauthapp#readme"
+}
