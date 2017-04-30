@@ -11,7 +11,7 @@
 5. Node.js
 6. HTML5
 7. CSS3
-8. JavaScript
+8. JavaScript ES6
 9. Sublime 3
 10. bcrypt.js
 11. passport
