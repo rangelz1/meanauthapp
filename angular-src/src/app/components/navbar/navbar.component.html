@@ -1,3 +1,23 @@
-<p>
-  navbar works!
-</p>
+<div class="navbar navbar-default"> <!--navbar-fixed-top-->
+<div class="container">
+	<div class="navbar-header">
+		<a href="../" class="navbar-brand">MEAN Auth App</a>
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+	</div>
+	<div class="navbar-collapse collapse" id="navbar-main">
+		<ul class="nav navbar-nav navbar-left">
+			<li><a [routerLinkActive]="['active']" [routerLink]="['/']">Home</a></li>
+			<li><a [routerLinkActive]="['active']" [routerLink]="['/packages']">Packages</a></li>
+			<li><a [routerLinkActive]="['active']" [routerLink]="['/testimonials']">Testimonials</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a [routerLinkActive]="['active']" [routerLink]="['/login']">Login</a></li>
+			<li><a [routerLinkActive]="['active']" [routerLink]="['/register']">Register</a></li>
+		</ul>
+	</div>
+</div>
+</div>
